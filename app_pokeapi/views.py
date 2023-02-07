@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from bson.objectid import ObjectId
-import json
 from pymongo import MongoClient
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import JsonResponse
