@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PokeapiConfig(AppConfig):
+class AppPokeapiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'pokeapi'
+    name = 'app_pokeapi'
