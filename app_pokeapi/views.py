@@ -52,3 +52,4 @@ def pokemon_list(request):
         response['last_page'] = f'/api/v2/pokemon?page={paginator.page(paginator.num_pages).number}'
         
     return JsonResponse(response)
+
